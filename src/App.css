@@ -1,0 +1,30 @@
+
+
+.App {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+  
+}
+
+.icons {
+    float: right;
+    cursor: pointer;
+    transition: color 0.5s;
+    margin-left: 10px;
+}
+
+.icons:hover {
+    color: rgb(219, 213, 213);
+}
+
+.container {
+    border: 1px solid rgb(218, 211, 211);
+    
+}
+
+#accordion {
+    width: 500px;
+}
+
+
